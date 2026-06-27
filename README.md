@@ -106,8 +106,8 @@ Claude Code 终端弹出 [y/n] 确认
 brew install terminal-notifier
 
 # 2. 克隆项目
-git clone https://github.com/tczzx0428/-Claude-.git
-cd -Claude-
+git clone https://github.com/tczzx0428/claude-code-notifier.git
+cd claude-code-notifier
 
 # 3. 运行安装脚本
 chmod +x setup.sh && ./setup.sh
@@ -206,7 +206,7 @@ tail -f monitor.log
 ## 项目结构
 
 ```
-- Claude-
+claude-code-notifier/
 ├── monitor.py                  ← 核心监控守护进程
 ├── setup.sh                    ← 交互式安装配置脚本
 ├── com.claudecode.notifier.plist ← LaunchAgent 配置（开机自启）
