@@ -1,0 +1,15 @@
+# 敏感信息
+config.json
+icon.jpg
+icon.png
+
+# 日志
+*.log
+
+# 生成的 .app
+Claude提醒.app/
+
+# macOS
+.DS_Store
+__pycache__/
+*.pyc
